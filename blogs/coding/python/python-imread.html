@@ -1,0 +1,159 @@
+<h1 id="python-中各种imread函数的区别与联系">Python 中各种imread函数的区别与联系</h1>
+
+<hr>
+
+<p>最近一直在用python做图像处理相关的东西，被各种imread函数搞得很头疼，因此今天决定将这些imread总结一下，以免以后因此犯些愚蠢的错误。如果你正好也对此感到困惑可以看下这篇总结。当然，要了解具体的细节，还是应该 <em>read the fuck code</em>和<em>API document</em>，但貌似python的很多模块文档都不是很全，所以只能多看代码和注释了。</p>
+
+<hr>
+
+
+
+<h3 id="先来看看常用的读取图片的方式">先来看看常用的读取图片的方式：</h3>
+
+<ul>
+<li>PIL.Image.open </li>
+<li>scipy.misc.imread</li>
+<li>scipy.ndimage.imread</li>
+<li>cv2.imread</li>
+<li>matplotlib.image.imread</li>
+<li>skimge </li>
+<li>caffe.io.load_iamge <br>
+知乎上有篇帖子专门介绍了这些方法的性能<a href="https://www.zhihu.com/question/48762352?from=profile_question_card" target="_blank">Python的各种imread函数在实现方式和读取速度上有何区别？</a></li>
+</ul>
+
+
+
+<h3 id="这些方法可以分为四大家族">这些方法可以分为四大家族</h3>
+
+
+
+<h4 id="pil">PIL</h4>
+
+<blockquote>
+  <p>PIL.Image.open + numpy  <br>
+  scipy.misc.imread <br>
+  scipy.ndimage.imread</p>
+  
+  <p>这些方法都是通过调用PIL.Image.open 读取图像的信息； <br>
+  PIL.Image.open 不直接返回numpy对象，可以用numpy提供的函数进行转换，参考<a href="http://blog.csdn.net/gzhermit/article/details/72758641" target="_blank">Image和Ndarray互相转换</a>； <br>
+  其他模块都直接返回numpy.array对象，通道顺序为RGB，通道值得默认范围为0-255。</p>
+</blockquote>
+
+
+
+<h4 id="matplotlib">matplotlib</h4>
+
+<blockquote>
+  <p>matplot.image.imread</p>
+  
+  <p>从名字中可以看出这个模块是具有matlab风格的，直接返回numpy.array格式通道顺序是RGB，通道值默认范围0-255。</p>
+</blockquote>
+
+
+
+<h4 id="opencv">opencv</h4>
+
+<blockquote>
+  <p>cv2.imread</p>
+  
+  <p>使用opencv读取图像，直接返回numpy.array 对象，通道顺序为<strong>BGR</strong> ，<em>注意是BGR</em>，通道值默认范围0-255。</p>
+</blockquote>
+
+
+
+<h4 id="skimage">skimage</h4>
+
+<blockquote>
+  <p>skimage.io.imread: 直接返回numpy.array 对象，通道顺序为RGB，通道值默认范围0-255。 <br>
+  caffe.io.load_image: 没有调用默认的skimage.io.imread，<strong>返回值为0-1的float型数据</strong>，通道顺序为RGB</p>
+</blockquote>
+
+
+
+<h3 id="关于图像的一些说明">关于图像的一些说明</h3>
+
+<p>可以使用matplotlib的pyplot模块的show也可以使用cv2的imshow方法，对于这些方法只要你传入的参数是numpy.array（通道值范围0-255） 就可以正常显示，不存在区别，这也可以看出numpy在python中的重要地位；<strong>但是cv2.imshow方法由于它针对的是cv2的imread 所以它内部会做通道顺序的变化，传入为BGR转换为RGB，所以你如果传入RGB显示的就是BGR了</strong>。废话说完了，看代码。</p>
+
+
+
+<h3 id="以下是测试代码">以下是测试代码</h3>
+
+<p>运行环境为windows10+python3.6</p>
+
+
+
+<pre class="prettyprint"><code class="language-python hljs "><span class="hljs-comment">#encoding=utf8</span>
+<span class="hljs-keyword">from</span> PIL <span class="hljs-keyword">import</span> Image
+<span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+<span class="hljs-keyword">import</span> cv2
+<span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt <span class="hljs-comment"># plt 用于显示图片</span>
+<span class="hljs-keyword">import</span> matplotlib.image <span class="hljs-keyword">as</span> mpimg <span class="hljs-comment"># mpimg 用于读取图片</span>
+<span class="hljs-keyword">import</span> skimage
+<span class="hljs-keyword">import</span> sys
+<span class="hljs-keyword">from</span> skimage <span class="hljs-keyword">import</span> io 
+
+<span class="hljs-comment">#PIL</span>
+<span class="hljs-comment">#相关:scipy.misc.imread, scipy.ndimage.imread</span>
+<span class="hljs-comment">#misc.imread 提供可选参数mode，但本质上是调用PIL，具体的模式可以去看srccode或者document</span>
+<span class="hljs-comment">#https://github.com/scipy/scipy/blob/v0.17.1/scipy/misc/pilutil.py</span>
+imagepath=<span class="hljs-string">'test1.jpg'</span>
+im1=Image.open(imagepath)
+im1=np.array(im1)<span class="hljs-comment">#获得numpy对象,RGB</span>
+print(type(im1))
+print(im1.shape)
+
+<span class="hljs-comment">#2 opencv </span>
+im2=cv2.imread(imagepath)
+print(type(im2))<span class="hljs-comment">#numpy BGR</span>
+print(im2.shape)<span class="hljs-comment">#[width,height,3]</span>
+
+<span class="hljs-comment">#3 matplotlib 类似matlab的方式</span>
+im3 = mpimg.imread(imagepath)
+print(type(im3))<span class="hljs-comment">#np.array</span>
+print(im3.shape)
+
+<span class="hljs-comment">#4 skimge </span>
+<span class="hljs-comment">#caffe.io.load_iamge()也是调用的skimage实现的，返回的是0-1 float型数据</span>
+im4 = io.imread(imagepath)
+print(type(im4))<span class="hljs-comment">#np.array</span>
+print(im4.shape)
+<span class="hljs-comment">#print(im4)</span>
+
+
+<span class="hljs-comment"># cv2.imshow('test',im4)</span>
+<span class="hljs-comment"># cv2.waitKey()</span>
+<span class="hljs-comment">#统一使用plt进行显示，不管是plt还是cv2.imshow,在python中只认numpy.array，但是由于cv2.imread 的图片是BGR，cv2.imshow 时相应的换通道显示</span>
+plt.subplot(<span class="hljs-number">221</span>)
+plt.title(<span class="hljs-string">'PIL read'</span>)
+plt.imshow(im1)
+plt.subplot(<span class="hljs-number">222</span>)
+plt.title(<span class="hljs-string">'opencv read'</span>)
+plt.imshow(im2)
+plt.subplot(<span class="hljs-number">223</span>)
+plt.title(<span class="hljs-string">'matplotlib read'</span>)
+plt.imshow(im3)
+plt.subplot(<span class="hljs-number">224</span>)
+plt.title(<span class="hljs-string">'skimage read'</span>)
+plt.imshow(im4)
+<span class="hljs-comment">#plt.axis('off') # 不显示坐标轴</span>
+plt.show()
+
+<span class="hljs-comment">##################################### cmd output################################</span>
+<span class="hljs-comment"># &lt;class 'numpy.ndarray'&gt;</span>
+<span class="hljs-comment"># (851, 1279, 3)</span>
+<span class="hljs-comment"># &lt;class 'numpy.ndarray'&gt;</span>
+<span class="hljs-comment"># (851, 1279, 3)</span>
+<span class="hljs-comment"># &lt;class 'numpy.ndarray'&gt;</span>
+<span class="hljs-comment"># (851, 1279, 3)</span>
+<span class="hljs-comment"># &lt;class 'numpy.ndarray'&gt;</span>
+<span class="hljs-comment"># (851, 1279, 3)</span></code></pre>
+
+
+
+<h3 id="测试结果">测试结果</h3>
+
+<p><img src="http://img.blog.csdn.net/20171209195548412?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcmVuZWxpYW4xNTcy/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="这里写图片描述" title=""></p>
+
+<h3 id="总结">总结</h3>
+
+<p>虽然python中没有显示的数据类型声明，但是在编程的过程中自己必须得清楚数据类型是什么，否则就有可能犯一些愚蠢的错误。</p>
