@@ -65,7 +65,7 @@
   caffe.io.load_image: 没有调用默认的skimage.io.imread，<strong>返回值为0-1的float型数据</strong>，通道顺序为RGB</p>
 </blockquote>
 
-<h3 id="关于图像的一些说明">关于图像的一些说明</h3>
+<h3 id="关于图像显示的一些说明">关于图像显示的一些说明</h3>
 
 <p>可以使用matplotlib的pyplot模块的show也可以使用cv2的imshow方法，对于这些方法只要你传入的参数是numpy.ndarray（通道值范围0-255） 就可以正常显示，不存在区别，这也可以看出numpy在python中的重要地位；<strong>但是cv2.imshow方法由于它针对的是cv2的imread 所以它内部会做通道顺序的变化，传入为BGR转换为RGB，所以你如果传入RGB显示的就是BGR了</strong>。废话说完了，看代码。</p>
 
