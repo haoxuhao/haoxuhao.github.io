@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset=utf-8>
+    <title>test</title>
+    <style>
+        div {
+    border: 1px solid red;
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+	//text-align:center
+}
+div>img {
+    width: 400px;
+    height: 250px;
+}
+ 
+div>img:not(:first-child) {
+    display: none;
+}
+    </style>
+    <script>
+        onload = function() {
+            var divs = document.getElementsByTagName("div");
+            for (var i = 0; i < divs.length; i++) {
+                var div = divs[i];
+                div.last = 0;
+                div.curr = 0;
+                div.imgs = div.getElementsByTagName("img");
+                div.onmouseover = function() {
+                    var me = this;
+                    me.interval = setInterval(function() {
+                        me.imgs[me.curr].style.display = "none";
+                        me.last++;
+                        me.last = me.last > me.imgs.length - 1 ? 0 : me.last;
+                        me.imgs[me.last].style.display = "inline";
+                        me.curr = me.last;
+                    }, 1000);
+                }
+                div.onmouseout = function() {
+                    clearInterval(this.interval);
+                }
+            }
+        }
+    </script>
+</head>
+ 
+<body text-align="center-left">
+    <div id="aa">
+        <img src="res/img/1.jpg" />
+        <img src="res/img/2.jpg" />
+        <img src="res/img/3.jpg" />
+    </div>
+</body>
+ 
+</html>

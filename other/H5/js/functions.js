@@ -43,7 +43,7 @@ function getHeartPoint(angle) {
 }
 
 function startHeartAnimation() {
-	var interval = 50;
+	var interval = 60;
 	var angle = 10;
 	var heart = new Array();
 	var animationTimer = setInterval(function () {
@@ -85,6 +85,10 @@ function startHeartAnimation() {
 				$ele.html(str.substring(0, progress) + (progress & 1 ? '_' : ''));
 				if (progress >= str.length) {
 					clearInterval(timer);
+					setTimeout(function(){
+							$ele.fadeOut(1500);
+							startHeartAnimation();
+					},4000);	
 				}
 			}, 75);
 		});

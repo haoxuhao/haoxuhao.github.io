@@ -21,14 +21,19 @@
 <script type="text/javascript" src="js/functions.js"></script>
 </head>
 
-<body>
+<body text-align="center">
 <audio autoplay="autoplay" id="bgm">
 <source src="res/bgm.mp3" type="audio/mpeg"/>
 音频无法播放，可以使用chrome浏览器播放
 </audio>
+<div id="tips" margin="0">
+	<span color="#3f7f5f"  font-size="18px" text-align="center">/*点击频幕控制音乐*/</span>
+</div>
 <div id="mainDiv" onclick="playOrStop()">
 	<div id="content">
 		<div id="code">
+			<span class="comments">/*点击频幕控制音乐*/</span>
+			
 			<span class="comments">/**</span><br />
 			<span class="space"/><span class="comments">*@author haoxuhao</span><br />
 			<span class="space"/><span class="comments">*@time 2017-12-24</span><br />
@@ -74,9 +79,9 @@
 
 <script type="text/javascript">
 
+var audio = document.getElementById('bgm'); 
 function playOrStop()
 {
-	var audio = document.getElementById('bgm'); 
 	if(audio!=null){
 		if(audio.paused){                 
 		   audio.play();//audio.play();// 这个就是
@@ -104,20 +109,32 @@ if (!document.createElement('canvas').getContext) {
 	$("#copyright").css("bottom", "10px");
 	document.execCommand("stop");
 } else {
-	setTimeout(function () {
+	/*setTimeout(function () {
 		startHeartAnimation();
 	}, 12500);
-
+	*/
+	audio.pause();
+	setTimeout(function(){
+		$("#tips").fadeOut(1000);
+		audio.play();
+	},2000);
+	
 	timeElapse(together);
 	setInterval(function () {
 		timeElapse(together);
 	}, 500);
-	
-	/*setTimeout(function(){
-		
-	},5500);*/
+	setTimeout(function(){
+		audio.pause();
+		document.getElementById("mainDiv").onclick=function(){};//设置屏幕点击事件无效
+	},115000);
 	adjustCodePosition();
-	$("#code").typewriter();
+	//code = document.getElementById("code").style.display = "none";
+	$("#code").hide();
+	setTimeout(function(){
+		$("#code").show();
+		$("#code").typewriter();
+	},15000);
+	//$("#code").typewriter();
 }
 </script>
 </body>
