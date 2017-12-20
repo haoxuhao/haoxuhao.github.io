@@ -1,3 +1,3 @@
 git add .
 git commit -m "publish"
-git push origin
+git push origin -f
