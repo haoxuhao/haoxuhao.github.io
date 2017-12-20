@@ -27,13 +27,11 @@
 音频无法播放，可以使用chrome浏览器播放
 </audio>
 <div id="tips" margin="0">
-	<span color="#3f7f5f"  font-size="18px" text-align="center">/*点击频幕控制音乐*/</span>
+	<span class="tips">/*点击频幕控制音乐*/</span>
 </div>
 <div id="mainDiv" onclick="playOrStop()">
 	<div id="content">
 		<div id="code">
-			<span class="comments">/*点击频幕控制音乐*/</span>
-			
 			<span class="comments">/**</span><br />
 			<span class="space"/><span class="comments">*@author haoxuhao</span><br />
 			<span class="space"/><span class="comments">*@time 2017-12-24</span><br />
@@ -98,6 +96,7 @@ together.setHours(20);
 together.setMinutes(0);
 together.setSeconds(0);
 together.setMilliseconds(0);
+$("#code").hide();
 
 if (!document.createElement('canvas').getContext) {
 	var msg = document.createElement("div");
@@ -129,7 +128,7 @@ if (!document.createElement('canvas').getContext) {
 	},115000);
 	adjustCodePosition();
 	//code = document.getElementById("code").style.display = "none";
-	$("#code").hide();
+	
 	setTimeout(function(){
 		$("#code").show();
 		$("#code").typewriter();
