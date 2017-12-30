@@ -34,10 +34,10 @@
 		<div id="code">
 			<span class="comments">/**</span><br />
 			<span class="space"/><span class="comments">*@author haoxuhao</span><br />
-			<span class="space"/><span class="comments">*@time 2017-12-24</span><br />
+			<span class="space"/><span class="comments">*@time 2017-12-30</span><br />
 			<span class="space"/><span class="comments">*/</span><br />
-			Boy name = <span class="keyword">皮卡丘大坏蛋</span><br />
-			Girl name = <span class="keyword">皮卡丘小坏蛋</span><br />
+			Boy boy = new Person(<span class="keyword">"小傻子"</span>);<br />
+			Girl girl = new Person(<span class="keyword">"可爱敏"</span>);<br />
 			<span class="comments">// Fall in love river. </span><br />
 			The boy love the girl;<br />
 			<span class="comments">// They love each other.</span><br />
@@ -77,6 +77,40 @@
 
 <script type="text/javascript">
 
+//缩放视图
+    $(document).ready(function(){
+        resizeDiv();
+    });
+
+    var resizeDiv = function(){
+        var width = $(window).width();
+        var height = $(window).height();
+        var scaleX = width/670; //设备默认宽度为810px
+        var scaleY = height/625; //设备默认高度为340px
+
+        //按设备比例缩放div的比例
+        var scaleFunc = "scale("+scaleX+","+scaleY+")";
+
+        $('loveHeart').css({
+            "transform":scaleFunc, //缩放比例
+            "transform-origin":"left top", //缩放基点
+
+            "-ms-transform":scaleFunc,     /* IE 9 */
+            "-ms-transform-origin":"left top",
+
+            "-moz-transform":scaleFunc,     /* Firefox */
+            "-moz-transform-origin":"left top",
+
+            "-webkit-transform":scaleFunc, /* Safari 和 Chrome */
+            "-webkit-transform-origin":"left top",
+
+            "-o-transform":scaleFunc,     /* Opera */
+            "-o-transform-origin":"left top",
+        });
+
+        $('loveHeart').show();
+    };
+	
 var audio = document.getElementById('bgm'); 
 function playOrStop()
 {
