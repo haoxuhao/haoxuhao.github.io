@@ -1,0 +1,345 @@
+{
+	"resources": [
+		{
+			"name": "grass1_png",
+			"type": "image",
+			"url": "assets/grass1.png"
+		},
+		{
+			"name": "fenge1_png",
+			"type": "image",
+			"url": "assets/fenge1.png"
+		},
+		{
+			"name": "farm_jpg",
+			"type": "image",
+			"url": "assets/farm.jpg"
+		},
+		{
+			"name": "cabbage_png",
+			"type": "image",
+			"url": "assets/cabbage.png"
+		},
+		{
+			"name": "carrot_png",
+			"type": "image",
+			"url": "assets/carrot.png"
+		},
+		{
+			"name": "dandelion_png",
+			"type": "image",
+			"url": "assets/dandelion.png"
+		},
+		{
+			"name": "soil_png",
+			"type": "image",
+			"url": "assets/soil.png"
+		},
+		{
+			"name": "stone_png",
+			"type": "image",
+			"url": "assets/stone.png"
+		},
+		{
+			"name": "stone2_png",
+			"type": "image",
+			"url": "assets/stone2.png"
+		},
+		{
+			"name": "bag_png",
+			"type": "image",
+			"url": "assets/bag.png"
+		},
+		{
+			"name": "bg_png",
+			"type": "image",
+			"url": "assets/bg.png"
+		},
+		{
+			"name": "arrow_png",
+			"type": "image",
+			"url": "assets/arrow.png"
+		},
+		{
+			"name": "round_png",
+			"type": "image",
+			"url": "assets/round.png"
+		},
+		{
+			"name": "bkg_png",
+			"type": "image",
+			"url": "assets/bkg.png"
+		},
+		{
+			"name": "button_down_png",
+			"type": "image",
+			"url": "assets/Button/button_down.png"
+		},
+		{
+			"name": "button_up_png",
+			"type": "image",
+			"url": "assets/Button/button_up.png"
+		},
+		{
+			"name": "checkbox_select_disabled_png",
+			"type": "image",
+			"url": "assets/CheckBox/checkbox_select_disabled.png"
+		},
+		{
+			"name": "checkbox_select_down_png",
+			"type": "image",
+			"url": "assets/CheckBox/checkbox_select_down.png"
+		},
+		{
+			"name": "checkbox_select_up_png",
+			"type": "image",
+			"url": "assets/CheckBox/checkbox_select_up.png"
+		},
+		{
+			"name": "checkbox_unselect_png",
+			"type": "image",
+			"url": "assets/CheckBox/checkbox_unselect.png"
+		},
+		{
+			"name": "selected_png",
+			"type": "image",
+			"url": "assets/ItemRenderer/selected.png"
+		},
+		{
+			"name": "border_png",
+			"type": "image",
+			"url": "assets/Panel/border.png"
+		},
+		{
+			"name": "header_png",
+			"type": "image",
+			"url": "assets/Panel/header.png"
+		},
+		{
+			"name": "thumb_pb_png",
+			"type": "image",
+			"url": "assets/ProgressBar/thumb_pb.png"
+		},
+		{
+			"name": "track_pb_png",
+			"type": "image",
+			"url": "assets/ProgressBar/track_pb.png"
+		},
+		{
+			"name": "radiobutton_select_disabled_png",
+			"type": "image",
+			"url": "assets/RadioButton/radiobutton_select_disabled.png"
+		},
+		{
+			"name": "radiobutton_select_down_png",
+			"type": "image",
+			"url": "assets/RadioButton/radiobutton_select_down.png"
+		},
+		{
+			"name": "radiobutton_select_up_png",
+			"type": "image",
+			"url": "assets/RadioButton/radiobutton_select_up.png"
+		},
+		{
+			"name": "radiobutton_unselect_png",
+			"type": "image",
+			"url": "assets/RadioButton/radiobutton_unselect.png"
+		},
+		{
+			"name": "roundthumb_png",
+			"type": "image",
+			"url": "assets/ScrollBar/roundthumb.png"
+		},
+		{
+			"name": "track_sb_png",
+			"type": "image",
+			"url": "assets/ScrollBar/track_sb.png"
+		},
+		{
+			"name": "thumb_png",
+			"type": "image",
+			"url": "assets/Slider/thumb.png"
+		},
+		{
+			"name": "track_png",
+			"type": "image",
+			"url": "assets/Slider/track.png"
+		},
+		{
+			"name": "tracklight_png",
+			"type": "image",
+			"url": "assets/Slider/tracklight.png"
+		},
+		{
+			"name": "handle_png",
+			"type": "image",
+			"url": "assets/ToggleSwitch/handle.png"
+		},
+		{
+			"name": "off_png",
+			"type": "image",
+			"url": "assets/ToggleSwitch/off.png"
+		},
+		{
+			"name": "on_png",
+			"type": "image",
+			"url": "assets/ToggleSwitch/on.png"
+		},
+		{
+			"name": "Worm_ske_json",
+			"type": "json",
+			"url": "Worm/Worm_ske.json"
+		},
+		{
+			"name": "Worm_tex_json",
+			"type": "json",
+			"url": "Worm/Worm_tex.json"
+		},
+		{
+			"name": "Worm_tex_png",
+			"type": "image",
+			"url": "Worm/Worm_tex.png"
+		},
+		{
+			"name": "Ubbie_ske_json",
+			"type": "json",
+			"url": "Ubbie/Ubbie_ske.json"
+		},
+		{
+			"name": "Ubbie_tex_json",
+			"type": "json",
+			"url": "Ubbie/Ubbie_tex.json"
+		},
+		{
+			"name": "Ubbie_tex_png",
+			"type": "image",
+			"url": "Ubbie/Ubbie_tex.png"
+		},
+		{
+			"name": "Round3_png",
+			"type": "image",
+			"url": "assets/round/Round3.png"
+		},
+		{
+			"name": "Round1_png",
+			"type": "image",
+			"url": "assets/round/Round1.png"
+		},
+		{
+			"name": "Round2_png",
+			"type": "image",
+			"url": "assets/round/Round2.png"
+		},
+		{
+			"name": "Round4_png",
+			"type": "image",
+			"url": "assets/round/Round4.png"
+		},
+		{
+			"name": "boy_ske_json",
+			"type": "json",
+			"url": "Ubbie/boy_ske.json"
+		},
+		{
+			"name": "boy_tex_json",
+			"type": "json",
+			"url": "Ubbie/boy_tex.json"
+		},
+		{
+			"name": "boy_tex_png",
+			"type": "image",
+			"url": "Ubbie/boy_tex.png"
+		},
+		{
+			"name": "rabbit_eat_ske_json",
+			"type": "json",
+			"url": "rabbit_eat/rabbit_eat_ske.json"
+		},
+		{
+			"name": "rabbit_eat_tex_json",
+			"type": "json",
+			"url": "rabbit_eat/rabbit_eat_tex.json"
+		},
+		{
+			"name": "rabbit_eat_tex_png",
+			"type": "image",
+			"url": "rabbit_eat/rabbit_eat_tex.png"
+		},
+		{
+			"name": "rabbit_ske_json",
+			"type": "json",
+			"url": "rabbit/rabbit_ske.json"
+		},
+		{
+			"name": "rabbit_tex_png",
+			"type": "image",
+			"url": "rabbit/rabbit_tex.png"
+		},
+		{
+			"name": "rabbit_tex_json",
+			"type": "json",
+			"url": "rabbit/rabbit_tex.json"
+		},
+		{
+			"name": "Bei1_png",
+			"type": "image",
+			"url": "assets/conversation/Bei1.png"
+		},
+		{
+			"name": "Bei2_png",
+			"type": "image",
+			"url": "assets/conversation/Bei2.png"
+		},
+		{
+			"name": "Bei3_png",
+			"type": "image",
+			"url": "assets/conversation/Bei3.png"
+		},
+		{
+			"name": "Yuan1_png",
+			"type": "image",
+			"url": "assets/conversation/Yuan1.png"
+		},
+		{
+			"name": "Yuan2_png",
+			"type": "image",
+			"url": "assets/conversation/Yuan2.png"
+		},
+		{
+			"name": "Yuan3_png",
+			"type": "image",
+			"url": "assets/conversation/Yuan3.png"
+		},
+		{
+			"name": "Yuan4_png",
+			"type": "image",
+			"url": "assets/conversation/Yuan4.png"
+		},
+		{
+			"name": "Yuan5_png",
+			"type": "image",
+			"url": "assets/conversation/Yuan5.png"
+		},
+		{
+			"name": "start_png",
+			"type": "image",
+			"url": "assets/conversation/start.png"
+		},
+		{
+			"name": "end_png",
+			"type": "image",
+			"url": "assets/round/end.png"
+		},
+		{
+			"name": "sweetpotato_png",
+			"type": "image",
+			"url": "assets/sweetpotato.png"
+		}
+	],
+	"groups": [
+		{
+			"name": "preload",
+			"keys": "grass_png,fenge1_png,farm_jpg,cabbage_png,carrot_png,dandelion_png,soil_png,stone_png,stone2_png,bag_png,bg_png,arrow_png,round_png,bkg_png,button_down_png,button_up_png,checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,thumb_pb_png,track_pb_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,track_sb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,Worm_ske_json,Worm_tex_json,Worm_tex_png,Ubbie_ske_json,Ubbie_tex_json,Ubbie_tex_png,Round3_png,Round1_png,Round2_png,Round4_png,boy_ske_json,boy_tex_json,boy_tex_png,rabbit_eat_ske_json,rabbit_eat_tex_json,rabbit_eat_tex_png,rabbit_ske_json,rabbit_tex_png,rabbit_tex_json,Bei1_png,Bei2_png,Bei3_png,Yuan1_png,Yuan2_png,Yuan3_png,Yuan4_png,Yuan5_png,start_png,end_png,sweetpotato_png"
+		}
+	]
+}
