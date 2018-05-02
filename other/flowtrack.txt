@@ -1,0 +1,7 @@
+DCF(discriminative correlation filters)
+
+Then the previous frames are warped to specified frame by the guiding of flow information, and they are aggregated for consequent 
+correlation filter tracking. For adaptive aggregation, a novel spatial-temporal attention mechanism is developed.
+
+All these trackers only consider appearance features in current frame and can hardly benefit from motion and inter-frame information.
+In this paper, we make full use of these information by aggregating flow and Siamese tracking in an end-to-end framework.
