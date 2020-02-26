@@ -3,15 +3,14 @@
 
 
 
-![](../../images/bkg-grass.jpeg)
+![](./images/bkg-grass.jpeg)
 
-# Intro
+## Intro
 
-Hi, I am **Hao Xu** interested in Machine Learning, Evolutionary Optimization, and Parallel Computing. Happy to see you.
+Hi, I am **Hao Xu**. A master student studies at Southeast University, Nanjing China. I am interested in Machine Learning, Evolutionary Optimization, and Parallel Computing. Happy to see you. Very fascinated by the charm of computation.
+## Experience
 
-# Experience
-
-## Crowd estimation
+### Crowd estimation
 <!-- **Synopsis**:  -->
 To improve the mainstream density-regression-based crowd estimation algorithm, we proposed a new learning branch to explicitly tackle the false response on the environment. A new crowd estimation framework based on foreground learning was proposed to tackle the false response on the complex environment. See the [paper](https://ieeexplore.ieee.org/document/8865761/) for details.
 
@@ -25,7 +24,7 @@ To improve the mainstream density-regression-based crowd estimation algorithm, w
 * Both the visualization results and the accuracy are better than the baseline method CSRNet.
 * Paper: Hao Xu, Siyu Xia, et al. Crowd Counting with Segmentation Map Guidance, IEEE 2019 38th Chinese Control Conference (CCC). -->
 
-## Coal-gangue sorting system
+### Coal-gangue sorting system
 <!-- **Synopsis**:  -->
 Automaticly select the gangue from raw coal mine on the conveyor belt. The image processing method is used to identify the coal mine on the conveyor belt. The gangue is localized based on the color image, and the coordinates on the conveyor belt are sent to the robot. The robot grabs the gangue from the conveyor belt. See the [demo]() for details.
 
@@ -40,7 +39,7 @@ Automaticly select the gangue from raw coal mine on the conveyor belt. The image
 ## 人头检测 (2018/9-2018/10)
 -->
 
-## Face recognition in surveillance video 
+### Face recognition in surveillance video 
 Reproduce the video face recognition algorithm (NAN Neural Aggregation Network) and apply it to face recognition in real surveillance scenes. The NAN algorithm was reproduced, and the online face recognition software in the real monitoring scene was completed, and the accuracy rate reached 82%. See the [code](https://github.com/haoxuhao/NVR-Face-Recognition) for details.
 
 <!-- **Main work**：
@@ -54,11 +53,11 @@ Reproduce the video face recognition algorithm (NAN Neural Aggregation Network) 
 ## 大数据医疗—肝癌影像AI诊断
 -->
 
-# Internship
+## Internship
 
-## Nanjing Fujitsu Nanda Software Technology Co. Ltd.
+### Nanjing Fujitsu Nanda Software Technology Co. Ltd.
 Participate in the development of distributed unified storage software [DUS](https://www.fujitsu.com/cn/group/fnst/solution/#title3) (Distributed Unified Storage), this project is based on [glusterfs](https://github.com/gluster/glusterfs). During the 3-months internshitp, I first dived into the source code of glusterfs and completed a file decryption tool which is used to read the encrypted file out when the storage system is down. And last developed and completed the file deduplication feature in DUS.
 
-# Find me
+## Find me
 - [cnblog](https://www.cnblogs.com/walter-xh/)
 - [github](https://github.com/haoxuhao)
