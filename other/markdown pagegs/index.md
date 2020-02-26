@@ -56,7 +56,7 @@ Reproduce the video face recognition algorithm (NAN Neural Aggregation Network) 
 ## Internship
 
 ### Nanjing Fujitsu Nanda Software Technology Co. Ltd.
-Participate in the development of distributed unified storage software [DUS](https://www.fujitsu.com/cn/group/fnst/solution/#title3) (Distributed Unified Storage), this project is based on [glusterfs](https://github.com/gluster/glusterfs). During the 3-months internshitp, I first dived into the source code of glusterfs and completed a file decryption tool which is used to read the encrypted file out when the storage system is down. And last developed and completed the file deduplication feature in DUS.
+Participate in the development of distributed unified storage software [DUS](https://www.fujitsu.com/cn/group/fnst/solution/#title3) (Distributed Unified Storage), this project is based on [glusterfs](https://github.com/gluster/glusterfs). During the 3-months internship, I first dived into the source code of glusterfs and completed a file decryption tool which is used to read the encrypted file out when the storage system is down. And last developed and completed the file deduplication feature in DUS.
 
 ## Find me
 - [cnblog](https://www.cnblogs.com/walter-xh/)
