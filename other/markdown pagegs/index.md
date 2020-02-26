@@ -26,7 +26,7 @@ To improve the mainstream density-regression-based crowd estimation algorithm, I
 
 ### Coal-gangue sorting system
 <!-- **Synopsis**:  -->
-Automaticly select the gangue from raw coal mine on the conveyor belt. The image processing method is used to identify the coal mine on the conveyor belt. The gangue is localized based on the color image, and the coordinates on the conveyor belt are sent to the robot. The robot grabs the gangue from the conveyor belt. See the [demo]() for details.
+Automaticly select the gangue from raw coal mine on the conveyor belt. The computer vision method is used to identify the coal mine on the conveyor belt. The gangue is localized in the color image, and the coordinates on the conveyor belt are tranformed and sent to the robot. The robot grabs the gangue from the conveyor belt. See the [demo]() for details.
 
 <!-- **Main work**：
 
