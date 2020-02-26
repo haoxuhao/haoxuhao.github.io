@@ -7,7 +7,7 @@
 
 ## Intro
 
-Hi, I am **Hao Xu**. A master student studies at Southeast University, Nanjing China. I am interested in Machine Learning, Evolutionary Optimization, and Parallel Computing. Very fascinated by the charm of computation. Happy to see you. 
+Hi, I am **Hao Xu**. A master student studies at Southeast University, Nanjing China. I am interested in Machine Learning, Evolutionary Optimization, and Parallel Computing. Very fascinated by the charm of computing. Happy to see you. 
 ## Experience
 
 ### Crowd estimation
