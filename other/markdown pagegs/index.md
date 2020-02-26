@@ -12,7 +12,7 @@ Hi, I am **Hao Xu**. A master student studies at Southeast University, Nanjing C
 
 ### Crowd estimation
 <!-- **Synopsis**:  -->
-To improve the mainstream density-regression-based crowd estimation algorithm, we proposed a new learning branch to explicitly tackle the false response on the environment. A new crowd estimation framework based on foreground learning was proposed to tackle the false response on the complex environment. See the [paper](https://ieeexplore.ieee.org/document/8865761/) for details.
+To improve the mainstream density-regression-based crowd estimation algorithm, I proposed a new learning branch to explicitly tackle the false response on the environment. A new crowd estimation framework based on foreground learning was proposed to tackle the false response on the complex environment. See the [paper](https://ieeexplore.ieee.org/document/8865761/) for details.
 
 <!-- **Main work**：
 
