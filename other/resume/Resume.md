@@ -23,8 +23,6 @@
          </span>
      </div>
  </center>
-
-
 ## <img src="assets/graduation-cap-solid.svg" width="30px"> 教育经历
 
 - 硕士：东南大学自动化学院，计算机视觉方向，均分83.5/100，排名40/130                            2018.9~至今
@@ -67,9 +65,9 @@
 
 ## <img src="assets/briefcase-solid.svg" width="30px"> 实习经历
 
-- **富士通南大软件公司，平台事业部门，软件开发实习生**                                                          2018.3~2018.7
+- **南京富士通南大软件公司，平台事业部门，软件开发实习生**                                                   2018.3~2018.7
 
-  参与分布式统一存储软件[DUS](https://www.fujitsu.com/cn/group/fnst/solution/#title3)(Distributed Unified Storage) 的开发。从事的工作有：
+  参与分布式统一存储软件[DUS](https://www.fujitsu.com/cn/group/fnst/solution/#title3)(Distributed Unified Storage) 的开发。主要工作：
 
   1. 文件解密工具开发：实现独立系统之外的文件解密工具，以应对系统死机后的数据恢复。
 
