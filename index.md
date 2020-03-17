@@ -10,7 +10,7 @@ Hi, I am **Hao Xu**. A master student studies at Southeast University, Nanjing C
 
 ## Projects
 
-- **Crowd estimation**: To improve the mainstream density-regression-based crowd estimation algorithm, a new learning branch is integrated into CSRNet to explicitly tackle the false response on the complex environment. See the [paper](https://ieeexplore.ieee.org/document/8865761/) for details.
+- **Crowd estimation**: To improve the mainstream density-regression-based crowd estimation algorithm, a new learning branch is integrated into CSRNet to explicitly tackle the false response on the complex background. The background false response is effectively suppressed and achieve a better accuracy to CSRNet. See the [paper](https://ieeexplore.ieee.org/document/8865761/) for details.
 - **Aerial vehicle detection competition**:  In this competition,  a very complex one-stage detector Retinanet-Resnext101 (backend by [mmdetection](https://github.com/open-mmlab/mmdetection)) is first utilized and several commonly used tricks are included to guarantee the performance. Finally, after several weeks of hard work, I won the second place out of 132 teams and the 5, 000rmb bonus. See the final [report](other/files/aerial-vehicle-detection.pdf) for details.
 - **Coal-gangue sorting system**: Automatically select the gangue from the raw coal mine on the conveyor belt. The YOLO detector is used to detect the coal mine on the conveyor belt. The gangue is detected and the coordinates on the conveyor belt are transformed and sent to the robot. The robot grabs the gangue from the conveyor belt. See the [demo](images/portfolio/coal-gan/demo.gif) for details.
 
