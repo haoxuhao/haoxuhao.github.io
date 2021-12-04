@@ -20,8 +20,8 @@ Hi, I am **Hao Xu**. I have obtained a bachelor's degree (2018) and a master's d
 
 ## Projects
 
-- **Vehicle detection in aerial  images**:  An AI competition.  A complex one-stage detector Retinanet-Resnext101 (backend by [mmdetection](https://github.com/open-mmlab/mmdetection)) is employed and several tricks (multi-scale training, balanced sampling, etc.) are included to improve the accuracy. After several weeks of hard work, I won the second place out of 132 teams and 5, 000rmb bonus. There's the [report](other/files/aerial-vehicle-detection.pdf).
-- **Coal-gangue sorting system**: Laboratory project. A software system is developed to automatically selecting the gangue from the raw coal mine on the conveyor belt. A fast YOLO detector is used to detect the coal mine on the conveyor belt and a robotic arm is used to grabs the gangue from the conveyor belt. There's a [demo](images/portfolio/coal-gan/demo.gif).
+- **Vehicle detection in aerial  images**:  An AI competition.  A complex one-stage detector Retinanet-Resnext101 (backend by [mmdetection](https://github.com/open-mmlab/mmdetection)) is employed and several tricks (multi-scale training, balanced sampling, etc.) are included to improve the accuracy. After several weeks of hard work, I won the second place out of 132 teams and 5, 000rmb bonus. Here's the [report](other/files/aerial-vehicle-detection.pdf).
+- **Coal-gangue sorting system**: Laboratory project. A software system is developed to automatically selecting the gangue from the raw coal mine on the conveyor belt. A fast YOLO detector is used to detect the coal mine on the conveyor belt and a robotic arm is used to grabs the gangue from the conveyor belt. Here's a [demo](images/portfolio/coal-gan/demo.gif).
 
 ## Find me
 - [cnblogs](https://www.cnblogs.com/walter-xh/)
