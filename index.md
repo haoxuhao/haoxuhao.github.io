@@ -15,7 +15,7 @@ Hi, I am **Hao Xu**. I have obtained a bachelor's degree (2018) and a master's d
 
 - Software Engineer at **Pinduoduo** (07.2021 - present): performance engineer in recommender system (recommendation model serving), GPU-related performance engineering.
 - Software Intern at **Ant Group **(06.2020 - 08.2020): built a reuseble software framework for multi-objective optimization.  
-- Research Intern at **Swinburne Uniersity** (09.2019 - 12.2019, Melbourne, Au): evolutionary multi-task optimization.
+- Research Intern at **Swinburne University of Technology** (09.2019 - 12.2019, Melbourne, Au): evolutionary multi-task optimization.
 - Software Intern at **Nanjing Fujitsu Nanda Software Technology ** (03-2018 - 07-2018): participated in the development of distributed file storage software.
 
 ## Projects
