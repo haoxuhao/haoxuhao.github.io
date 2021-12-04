@@ -4,14 +4,14 @@
 
 ## Intro
 
-Hi, I am **Hao Xu**. I have obtained a bachelor's degree (2018) and a master's degree (2021) from Southeast University, Nanjing, China. Now, I am working on recommendation model serving (particulaly in GPU-related performance engineering) at Pinduoduo a large e-commence company in China. My major interests are in Machine Learning, Evolutionary Computing, and Parallel Computing. Deeply fascinated by the charm of computing. 
+Hi, I am **Hao Xu**. I have obtained a bachelor's degree (2018) and a master's degree (2021) from Southeast University, Nanjing, China. Now, I am working on recommendation model serving (particulaly in GPU-related performance engineering) at Pinduoduo a large e-commence company in China. My major interests are in Machine Learning, Evolutionary Computing, and Parallel Computing. Here's my [resume](other/files/resume_haoxu.pdf).
 
 ## Publications
 
 - **Evolutionary Multitasking**: H. Xu, A. K. Qin and S. Xia, "Evolutionary Multi-task Optimization with Adaptive Knowledge Transfer," in IEEE Transactions on Evolutionary Computation, doi: 10.1109/TEVC.2021.3107435.
 - **Crowd estimation**: H. Xu, C. Zheng, Y. Nie and S. Xia, "Crowd Counting with Segmentation Map Guidance," 2019 Chinese Control Conference (CCC), 2019, pp. 7716-7721, doi: 10.23919/ChiCC.2019.8865761. 
 
-## Work Experience
+## Work Experiences
 
 - Software Engineer at **Pinduoduo** (07.2021 - present): performance engineer in recommender system (recommendation model serving), GPU-related performance engineering.
 - Software Intern at **Ant Group **(06.2020 - 08.2020): built a reuseble software framework for multi-objective optimization.  
