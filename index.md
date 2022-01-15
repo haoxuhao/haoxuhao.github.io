@@ -11,7 +11,7 @@
 - **Evolutionary Multitasking**: H. Xu, A. K. Qin and S. Xia, "Evolutionary Multi-task Optimization with Adaptive Knowledge Transfer," IEEE Transactions on Evolutionary Computation, doi: 10.1109/TEVC.2021.3107435.
 - **Crowd density estimation**: H. Xu, C. Zheng, Y. Nie and S. Xia, "Crowd Counting with Segmentation Map Guidance," 2019 Chinese Control Conference (CCC), 2019, pp. 7716-7721.
 
-## Work Experiences
+## Work
 
 - Software Engineer at **Pinduoduo** (07.2021 - present): performance engineer on recommender system, particularly, in GPU-related performance engineering.
 - Software Intern at **Ant Group **(06.2020 - 08.2020): built a reuseble software framework for multi-objective optimization, algorithms including augmented e-constraint, weighted sum .  
