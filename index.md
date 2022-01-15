@@ -4,7 +4,7 @@
 
 
 
-**Hao Xu** have obtained the bachelor's degree (2018) and master's degree (2021) from Southeast University, Nanjing, China. Now, He is working on recommender system (particulaly in GPU-related performance engineering) at Pinduoduo a large e-commerce company in China. His major interests are in  evolutionary computing, GPU computing, and machine learning. Here's the [resume](other/files/resume_haoxu.pdf).
+**Hao Xu** obtained the bachelor's degree (2018) and master's degree (2021) from Southeast University, China. Now, He's working on recommender system (particulaly in GPU-related performance engineering) at Pinduoduo a large e-commerce company in China. His major research interests are in evolutionary computing, GPU computing, and machine learning. Here's the [resume](other/files/resume_haoxu.pdf).
 
 ## Publications
 
