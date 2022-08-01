@@ -4,7 +4,7 @@
 
 
 
-Hi I am *Hao Xu*,  I am currently a softerware engineer at Pinduoduo, China mainly working on GPU-related performance engineering for recommendation models. Before that, I obtained the bachelor and master's degrees from department of automation, Southeast University, Nanjing China, where I did some researche on evolutionary multitasking and computer vision. Here's the [CV](other/files/resume_haoxu.pdf).
+Hi I am *Hao Xu*,  I am currently a softerware engineer at Pinduoduo, China mainly working on GPU-related performance engineering for recommendation models. Before that, I obtained the bachelor and master's degrees from department of automation, Southeast University, Nanjing China, where I did some researche on evolutionary multitasking and computer vision. Here's the [CV](other/files/cv.pdf).
 
 
 
