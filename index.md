@@ -14,7 +14,7 @@ Hi, I am *Hao Xu*,  I am currently a softerware engineer at Pinduoduo, mainly wo
 ## Work
 
 - Software Engineer at **Pinduoduo** (07.2021 - present):  GPU-related performance engineering for recommendation models.
-- Software Intern at **Ant Group **(06.2020 - 08.2020): multi-objective optimization. 
+- Software Intern at **Ant Group **(06.2020 - 01.2021): multi-objective optimization. 
 - Research Intern at **Swinburne University of Technology** (09.2019 - 12.2019, Melbourne): evolutionary multi-task optimization.
 
 ## Personal projects
