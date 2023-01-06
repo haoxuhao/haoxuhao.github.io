@@ -4,7 +4,7 @@
 
 
 
-Hi, I am *Hao Xu*,  I am currently a softerware engineer at Pinduoduo, mainly working on GPU-related performance engineering for recommendation models. Before that, I obtained the bachelor and master's degrees from department of automation, Southeast University, Nanjing China, where I did some research on the evolutionary multitasking and computer vision. Here's the [CV](other/files/cv.pdf).
+Hi, I am *Hao Xu*,  I am currently a softerware engineer at Pinduoduo, mainly working on GPU-related performance engineering for recommendation models. Before that, I obtained the bachelor and master's degrees from department of automation, Southeast University, Nanjing China, where I researched on the evolutionary multitasking and computer vision. Here's the [CV](other/files/cv.pdf).
 
 ## Publications
 
@@ -14,7 +14,7 @@ Hi, I am *Hao Xu*,  I am currently a softerware engineer at Pinduoduo, mainly wo
 ## Work
 
 - Software Engineer at **Pinduoduo** (07.2021 - present):  GPU-related performance engineering for recommendation models.
-- Software Intern at **Ant Group **(06.2020 - 01.2021): multi-objective optimization. 
+- Software Intern at **Ant Group **(06.2020 - 06.2021): multi-objective optimization. 
 - Research Intern at **Swinburne University of Technology** (09.2019 - 12.2019, Melbourne): evolutionary multi-task optimization.
 
 ## Personal projects
