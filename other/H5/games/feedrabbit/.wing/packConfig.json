@@ -1,9 +1,0 @@
-{
-    "useClip": false,
-    "maxImageWidth": 2048,
-    "maxImageHeight": 2048,
-    "defaultResPath": "f:\\learnegret\\feedRubbit\\resource\\default.res.json",
-    "packGroups": {
-        "preload": true
-    }
-}

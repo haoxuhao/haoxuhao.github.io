@@ -4,12 +4,12 @@
 
 
 
-Hi, I am *Hao Xu*,  I am currently a softerware engineer at Pinduoduo, mainly working on GPU-related performance engineering for recommendation models. Before that, I obtained the bachelor and master's degrees from department of automation, Southeast University, Nanjing China, where I researched on the evolutionary multitasking and computer vision. Here's the [CV](other/files/cv.pdf).
+Hi, I am *Hao Xu*,  I am currently a first year PhD student at NJIT . Before that, I worked as a softerware engineer at Pinduoduo, mainly working on GPU-related performance engineering for recommendation models. I obtained the bachelor and master's degrees from department of automation, Southeast University, China. Here's the [CV](other/files/cv.pdf).
 
 ## Publications
 
-- **Evolutionary Multitasking**: H. Xu, A. K. Qin and S. Xia, "Evolutionary Multi-task Optimization with Adaptive Knowledge Transfer," IEEE Transactions on Evolutionary Computation, doi: 10.1109/TEVC.2021.3107435.
-- **Crowd density estimation**: H. Xu, C. Zheng, Y. Nie and S. Xia, "Crowd Counting with Segmentation Map Guidance," 2019 Chinese Control Conference (CCC), 2019, pp. 7716-7721.
+- **H. Xu**, A. K. Qin and S. Xia, "Evolutionary Multi-task Optimization with Adaptive Knowledge Transfer," IEEE Transactions on Evolutionary Computation, doi: 10.1109/TEVC.2021.3107435.
+- **H. Xu**, C. Zheng, Y. Nie and S. Xia, "Crowd Counting with Segmentation Map Guidance," 2019 Chinese Control Conference (CCC), 2019, pp. 7716-7721.
 
 ## Work
 
